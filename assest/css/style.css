@@ -1,17 +1,11 @@
-@font-face {
-    font-family: "j";
-    src: url('../fonts/jf-flat-regular.eot');
-    src: url('../fonts/jf-flat-regular.eot?#iefix') format('embedded-opentype'), url('./fonts/jf-flat-regular.svg#jf fat Regular') format('svg'), url('../fonts/jf-flat-regular.woff') format('woff'), url('../fonts/jf-flat-regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
 
 body
 {
 padding: 0px;
 margin: 0px;
 background-color: #fff;
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 overflow-x: hidden;
 }
 html
@@ -240,7 +234,8 @@ padding-bottom: 30px;
 {
 text-align: center;
 color: #fff;
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 }
 .our-features .the-one
 {
@@ -270,7 +265,8 @@ transform: rotate(360deg);
     transition: all .6s ease-in-out;
     color: #fff;
     margin-bottom: 20px;
-    font-family: "j";
+    font-family: "bein-normal", sans-serif;
+
     font-weight: bold;
 }
 .our-features .the-one p
@@ -290,7 +286,8 @@ margin-top: 30px;
 text-align: center;
 color: #182C61;
 margin-bottom: 50px;
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 }
 .our-services .txt
 {
@@ -371,7 +368,8 @@ transform: rotate(360deg);
 {
 text-decoration: none;
 color: #3498DB;
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 }
 .newest-programs .head h3
 {
@@ -380,7 +378,8 @@ margin-top: 30px;
 text-align: center;
 color: #182C61;
 margin-bottom: 50px;
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
     font-weight: bold;
 }
 .newest-programs .the-program
@@ -404,7 +403,8 @@ padding: 0px 15px;
 text-align: right;
 color: #333333;
 line-height: 25px;
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 font-weight: bold;
 margin-top: 10px;
 display: block;
@@ -441,7 +441,8 @@ font-size: 12px;
 margin-right: 5px;
 color: #3498DB;
 margin-left: 5px;
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
     font-size: 21px;
     font-weight: bold;
 }
@@ -458,7 +459,8 @@ font-size: 12px;
 margin-right: 5px;
 color: #94999F;
 margin-left: 5px;
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 text-decoration: line-through;
 font-size: 18px;
 }
@@ -484,7 +486,8 @@ width: 120px;
 background-color: #3498DB;
 color: #fff;
 border-radius: 10px;
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 text-decoration: none;
 margin-bottom: 15px;
 margin-top: 15px;
@@ -503,7 +506,8 @@ margin-top: 30px;
 text-align: center;
 color: #182C61;
 margin-bottom: 50px;
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 }
 .new-offers .the-city
 {
@@ -535,7 +539,8 @@ text-align: center;
 {
 text-decoration: none;
 color: #fff;
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 font-size: 24px;
 }
 .new-offers .see-more a
@@ -547,7 +552,8 @@ width: 120px;
 background-color: #3498DB;
 color: #fff;
 border-radius: 10px;
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 text-decoration: none;
 margin-bottom: 15px;
 margin-top: 15px;
@@ -570,8 +576,19 @@ display: block;
 margin-top: 10px;
 text-align: center;
 color: #182C61;
+font-family: "bein-normal", sans-serif;
+
+    font-weight: bold;
+}
+.testmonials .head h4
+{
+display: block;
+margin-top: 10px;
+text-align: center;
+color: #182C61;
 margin-bottom: 50px;
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
     font-weight: bold;
 }
 .testmonials .the-testmonial
@@ -620,52 +637,10 @@ margin-top: 10px;
 {
 text-align: center;
 font-size: 18px;
-font-family: "j";
-}
-.testmonials .the-testmonial .rate
-{
-text-align: center;
-}
-.testmonials .the-testmonial .rate span
-{
-font-size: 12px;
-display: inline-block;
-width: auto;
-float: none;
-text-align: center;
-}
-.testmonials .the-testmonial .rate .checked
-{
-color: orange;
-}
-.testmonials .the-testmonial h6
-{
-font-size: 12px;
-text-align: center;
-font-family: "j";
-}
-.testmonials .testmonials-slider .owl-dots
-{
-display: table;
-margin: 0px auto;
-position: relative;
-top:20px;
-}
-.testmonials .testmonials-slider .owl-dot
-{
-background-color: #fff;
-border-radius: 50%;
-border: 1px solid #3498DB;
-float: right;
-height: 11px;
-margin-left: 10px;
-width: 11px;
+font-family: "bein-normal", sans-serif;
+
 }
 
-.testmonials .testmonials-slider .owl-dot.active
-{
-background-color: #3498DB;
-}
 .maps
 {
 position: relative;
@@ -681,7 +656,8 @@ margin-top: 70px;
 font-size: 24px;
 margin-bottom: 15px;
 color: #182C61;
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 }
 .maps .content
 {
@@ -788,7 +764,8 @@ color: #fff;
 text-align: center;
 font-size: 18px;
 margin-bottom: 0px;
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 }
 .fixed-icons {
     padding: 0;
@@ -862,7 +839,8 @@ margin-bottom: 20px;
 .about-content h3
 {
 color: #182C61;
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 font-size: 28px;
 line-height: 40px;
 margin-top: 60px;
@@ -878,7 +856,8 @@ display: block;
 .about-content p
 {
 color: #94999F;
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 text-align: center;
 line-height: 25px;
 font-size: 14px;
@@ -891,7 +870,8 @@ margin-bottom: 20px;
 }
 .more-about .more-about-content h3
 {
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 font-size: 18px;
 display: block;
 }
@@ -907,7 +887,8 @@ margin-bottom: 15px;
 .more-about .more-about-content p
 {
 color: #94999F;
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 float: right;
 text-align: center;
 line-height: 25px;
@@ -920,7 +901,8 @@ margin-top: 30px;
 text-align: center;
 color: #182C61;
 margin-bottom: 20px;
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 }
 .about-vedio .head hr
 {
@@ -952,12 +934,14 @@ padding-bottom: 50px;
 .subscribe h3
 {
 color: #fff;
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 margin-bottom: 20px;
 }
 .subscribe h5
 {
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 font-size: 16px;
 color: #fff;
 }
@@ -1023,7 +1007,8 @@ margin: 0 auto;
 }
 .main-programs .programs-slider .content h3
 {
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 font-size: 26px;
 }
 .main-programs .programs-slider .owl-dots
@@ -1061,7 +1046,8 @@ background-color: #3498DB;
 z-index: 9999999;
 color: #fff;
 width: 100px;
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 }
 .all-programms .the-city img
 {
@@ -1088,7 +1074,8 @@ text-align: center;
 {
     text-decoration: none;
     color: #fff;
-    font-family: "j";
+    font-family: "bein-normal", sans-serif;
+
     font-size: 24px;
     background: #000000a8;
     width: 105px;
@@ -1103,7 +1090,8 @@ text-align: center;
 color: #182C61;
 margin-top: 30px;
 margin-bottom: 40px;
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
     font-weight: bold;
 }
 .about .content
@@ -1119,7 +1107,8 @@ margin: 0 auto;
 }
 .about .content h3
 {
-    font-family: "j";
+    font-family: "bein-normal", sans-serif;
+
     font-size: 26px;
     background: #000000a8;
     border-radius: 8px;
@@ -1130,7 +1119,8 @@ margin: 0 auto;
 }
 .about .content h4
 {
-    font-family: "j";
+    font-family: "bein-normal", sans-serif;
+
     font-size: 24px;
     background: #000000a8;
     border-radius: 8px;
@@ -1164,7 +1154,8 @@ display: inline-block;
 {
 text-decoration: none;
 color: #333333;
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 }
 .programs-details .tabs .active a
 {
@@ -1175,7 +1166,8 @@ color: #3498DB;
 margin-top: 20px;
 font-size: 24px;
 color: #182C61;
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 line-height: 30px;
 }
 .programs-details .tab-content .details-of-prog ul
@@ -1188,7 +1180,8 @@ margin: 0px;
 {
 width: 32%;
 display: inline-block;
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 float: right;
 margin-top: 20px;
 }
@@ -1234,7 +1227,8 @@ color: #182C61;
 text-align: right;
 margin: 0px;
 padding: 0px;
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 border-bottom: 2px solid #f7f7f7;
 padding-bottom: 15px;
 padding-top: 15px;
@@ -1246,7 +1240,8 @@ padding-top: 15px;
     text-align: right;
     margin: 0px;
     padding: 0px;
-    font-family: "j";
+    font-family: "bein-normal", sans-serif;
+
     border-bottom: 2px solid #f7f7f7;
     padding-bottom: 15px;
     padding-top: 15px;
@@ -1259,7 +1254,8 @@ padding-top: 15px;
 .programs-details .tab-content .details-of-prog h3 span
 {
 float: left;
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 font-size: 14px;
     font-size: 15px;
     font-weight: bold;
@@ -1288,14 +1284,16 @@ padding-bottom: 20px;
 }
 .programs-details .tab-content .including-prog h3
 {
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 font-size: 20px;
 color: #182C61;
 margin-top: 20px;
 }
 .programs-details .tab-content .including-prog h5
 {
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 font-size: 16px;
 color: #182C61;
 margin-top: 20px;
@@ -1323,7 +1321,8 @@ margin-left: 8px;
 
 .programs-details .tab-content .trip-planes h3
 {
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 font-size: 20px;
 color: #182C61;
 margin-top: 20px;
@@ -1345,7 +1344,8 @@ margin-bottom: 20px;
 }
 .programs-details .tab-content .trip-planes h4
 {
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 font-size: 16px;
 float: right;
 color: #182C61;
@@ -1372,13 +1372,15 @@ text-align: center;
 {
 font-size: 16px;
 margin-top: 10px;
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 display: block;
 }
 .programs-details .reserve-now h3
 {
 margin: 0px;
-font-family: "j";
+font-family: "bein-normal", sans-serif;
+
 color: #3498DB;
 text-align: center;
 direction: ltr;
@@ -1484,7 +1486,8 @@ outline: none;
 .how-contact .how-contact-details h4
 {
     color: #182C61;
-    font-family: "j";
+    font-family: "bein-normal", sans-serif;
+
     font-size: 22px;
 }
 .how-contact .how-contact-details hr
@@ -1505,7 +1508,8 @@ outline: none;
 {
     display: block;
     margin-bottom: 10px;
-    font-family: "j";
+    font-family: "bein-normal", sans-serif;
+
 
 }
 .how-contact .how-contact-details span i
@@ -1521,7 +1525,8 @@ outline: none;
 {
     margin-top: 15px;
     display: block;
-    font-family: "j";
+    font-family: "bein-normal", sans-serif;
+
 }
 .how-contact form input
 {
@@ -1606,7 +1611,8 @@ outline: none;
 {
     text-align: center;
     font-size: 18px;
-    font-family: "j";
+    font-family: "bein-normal", sans-serif;
+
 }
 .testmonials-page .the-testmonial .rate
 {
@@ -1628,7 +1634,8 @@ outline: none;
 {
     font-size: 12px;
     text-align: center;
-    font-family: "j";
+    font-family: "bein-normal", sans-serif;
+
 }
 .testmonials-page .testmonials-page-slider .owl-dots
 {
@@ -1665,7 +1672,8 @@ outline: none;
 
 .programs-details .head h4
 {
-    font-family: "j";
+    font-family: "bein-normal", sans-serif;
+
     font-size: 20px;
     color: #182C61;
     width: 150px;

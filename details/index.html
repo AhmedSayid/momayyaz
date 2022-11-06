@@ -150,7 +150,7 @@
     </div>
 
     <!--=====================================================================-->
-    <div class="programs-details">
+    <div class="programs-details p-3">
         <div class="container">
             <div class="row">
                 <div class="col-sm-9 col-md-9 col-xs-12">
@@ -286,32 +286,91 @@
                 <!--=====================================================================-->
                 <!--=====================================================================-->
                 <!--=====================================================================-->
-                <div class="col-sm-3 col-md-3 col-xs-12">
-                    <div class="reserve-now bg-dark mt-5">
-                        <h3 class="text-light"> املئ هذه الاستمارة للحجز معنا</h3>
-                        <div role="form" class="wpcf7" id="wpcf7-f164-p6034-o1" lang="ar" dir="rtl">
-                            <div class="screen-reader-response">
-                                <p role="status" aria-live="polite" aria-atomic="true"></p>
-                                <ul></ul>
-                            </div>
-                            <form>
-                                <p><input type="text" class="rounded-3 p-2"
-                                        aria-required="true" aria-invalid="false" placeholder="الاسم"><br>
-                                    <input type="date" class="rounded-3 p-2" placeholder="تاريخ المغادرة"><br>
-                                    <input type="text" class="rounded-3 p-2" placeholder="جهة السفر"><br>
-                                    <input type="text" class="rounded-3 p-2" placeholder="عدد الاشخاص"><br>
-                                    <input type="text" class="rounded-3 p-2" placeholder="عدد الاطفال"><br>
-                                    <input type="tel" class="rounded-3 p-2" placeholder="رقم الجوال"></span>
-                                </p>
-                                <p>
-                                    <input type="email" class="rounded-3 p-2" placeholder="البريد الالكتروني"></span>
-                                </p>
-                                <p><input type="submit" value="إرسال" class="rounded-3 p-2"></p>
-                                <div class="wpcf7-response-output" aria-hidden="true"></div>
-                            </form>
-                        </div>
+
+                            <div class="container">
+            <div class="static-content row ">
+                <div class="row section-title">
+                    <div class="col col-md-12">
+                        <h2 style="color: #123a54;" class="text-center">طلب الحجز</h2>
                     </div>
                 </div>
+                <div class="static-data-content">
+                    <section class="d-flex justify-content-center ">
+                        <div class="col-md-8 col-md-push-2">
+                            <div class="col-md-12">
+                                <div id="result"></div>
+                                <form class="contact_us_form row bg-dark rounded-3 py-lg-4 ">
+                                    <div class="form-group col-md-12 text-right">
+                                        <label class="text-light font-monospace">الإسم</label>
+                                        <input type="text" class="form-control" id="name" name="name"
+                                            placeholder="الإسم كاملا">
+                                    </div>
+                                    <div class="form-group col-md-12 text-right">
+                                        <label class="text-light font-monospace">الجنسية</label>
+                                        <input type="text" class="form-control" id="nationality" name="nationality"
+                                            placeholder="الجنسية">
+                                    </div>
+                                    <div class="form-group col-md-12 text-right">
+                                        <label class="text-light font-monospace">الاقامة فى دولة</label>
+                                        <input type="text" class="form-control" id="country" name="country"
+                                            placeholder="الاقامة فى دولة">
+                                    </div>
+                                    <div class="form-group col-md-12 text-right">
+                                        <label class="text-light font-monospace">رقم الهاتف</label>
+                                        <input type="text" class="form-control" id="mobile" name="mobile"
+                                            placeholder="رقم الهاتف">
+                                    </div>
+                                    <div class="form-group col-md-12 text-right">
+                                        <label class="text-light font-monospace">الإيميل الحقيقي</label>
+                                        <input type="text" class="form-control" id="email" name="email"
+                                            placeholder="الإيميل">
+                                    </div>
+                                    <div class="form-group col-md-12 text-right">
+                                        <label class="text-light font-monospace">تاريخ الوصول المتوقع</label>
+                                        <input type="text" class="form-control hasDatepicker" id="arrive_date"
+                                            name="arrive_date" placeholder="تاريخ الوصول" autocomplete="off">
+                                    </div>
+                                    <div class="form-group col-md-12 text-right">
+                                        <label class="text-light font-monospace">تاريخ المغادرة المتوقع</label>
+                                        <input type="text" class="form-control hasDatepicker" id="departure_date"
+                                            name="departure_date" placeholder="تاريخ المغادرة" autocomplete="off">
+                                    </div>
+                                    <div class="form-group col-md-12 text-right">
+                                        <label class="text-light font-monospace"> نوع الحجز</label>
+                                        <select name="booking_type" class="form-control valid">
+                                            <option> نوع الحجز </option>
+                                            <option value="برنامج سياحي كامل">برنامج سياحي كامل</option>
+                                            <option value="برنامج سياحي فنادق فقط">برنامج سياحي فنادق فقط</option>
+                                            <option value="برنامج سياحي مواصلات و جولات فقط">برنامج سياحي مواصلات و
+                                                جولات فقط</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-12 text-right">
+                                        <label class="text-light font-monospace">عدد البالغين</label>
+                                        <input type="text" class="form-control" id="adults" name="adults"
+                                            placeholder="عدد البالغين">
+                                    </div>
+                                    <div class="form-group col-md-12 text-right">
+                                        <label class="text-light font-monospace">عدد الأطفال</label>
+                                        <input type="text" class="form-control" id="childs" name="childs"
+                                            placeholder="عدد الأطفال">
+                                    </div>
+                                    <div class="form-group col-md-12 text-right">
+                                        <label class="text-light font-monospace">تفاصيل اخرى</label>
+                                        <textarea name="notes" placeholder="تفاصيل اخرى"
+                                            class="form-control"></textarea>
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <button type="submit" value="submit"
+                                            class="btn submit_btn_black btn-primary form-control mt-3 ">إحجز الأن</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
                 <!--=====================================================================-->
                 <!--=====================================================================-->
                 <!--=====================================================================-->
